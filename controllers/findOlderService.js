@@ -4,7 +4,7 @@ const findOlder = (member1, member2, family) => {
     let member2Gen = family.getGeneration(member2);
 
     if (member1Gen == member2Gen) {
-      return "Same generation";
+      return Messages.SAME_GENERATION;
     } else if (member1Gen > member2Gen) {
       return member2;
     } else {

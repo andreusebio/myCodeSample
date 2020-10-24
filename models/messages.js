@@ -5,6 +5,7 @@ const Messages = Object.freeze({
   CHILD_ADDITION_SUCCEEDED: "CHILD_ADDED",
   INVALID_RELATIONSHIP: "INVALID_RELATIONSHIP",
   INVALID_COMMAND: "INVALID_COMMAND",
+  SAME_GENERATION: "Same generation",
 });
 
 module.exports = Messages;
